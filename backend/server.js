@@ -27,5 +27,10 @@ app.get("/", (req, res) => {
     res.send("API Working")
 })
 
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
+
 // Export app for Vercel serverless
 export default app
