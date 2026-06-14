@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 
 const App = () => {
 
-  const url = "https://food-dev-backend-eosin.vercel.app"
+  const url = 'http://localhost:4000';
 
   return (
     <div>
